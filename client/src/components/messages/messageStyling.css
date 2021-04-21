@@ -1,0 +1,51 @@
+.grey {
+  border: 1px solid #ffecac;
+  background: #fff5d5;
+  color: black;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin: 2px;
+  margin-left: auto;
+  /* box-shadow: 0px 0px 3px grey; */
+}
+.blue {
+  border: 1px solid #353535;
+  background: #353535;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin: 2px;
+  margin-right: auto;
+  /* box-shadow: 0px 0px 3px grey; */
+}
+.left {
+  margin-top: 1rem;
+  border-right: 3px solid #d6d8d9;
+}
+.mid {
+  margin-top: 1rem;
+}
+.right {
+  margin-top: 1rem;
+  border-left: 3px solid #d6d8d9;
+}
+.messages {
+  height: 67vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.noMessages{
+  text-align: center;
+  font-size: 2rem;
+  color: grey;
+}
+body{
+  font-family: 'Lexend', sans-serif;
+  /* font-family: 'Zilla Slab Highlight', cursive; */
+}

@@ -1,0 +1,36 @@
+.friend{
+    outline: none;
+    cursor:pointer;
+}
+.alert{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.friend:hover{
+    background-color:#b1b2b3
+}
+.friends{
+    margin:2px;
+    text-transform: capitalize;
+    width: 100%;
+    /* border-radius:20px; */
+}
+.icon{
+    margin-right: 2px;
+}
+.toast{
+    width:100%;
+    /* box-shadow: none; */
+    transition:100ms;
+}
+.toast:hover{
+    background-color: #333333;
+    cursor:pointer;
+    color:white;
+}
+
+.rounded{
+    width:3rem;
+    height:auto;
+}
